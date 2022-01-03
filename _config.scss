@@ -2,3 +2,19 @@
 $background-color: #253f57;
 $bright-golden-color: #f5f2ef;
 $inverted-star-color: #314569;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
