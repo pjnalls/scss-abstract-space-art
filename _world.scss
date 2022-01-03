@@ -1,0 +1,11 @@
+.world {
+  position: absolute;
+  width: 67vmin;
+  height: 67vmin;
+  border-radius: 50%;
+  background: linear-gradient(to left, $faded-golden-yang, $faded-rosey-yin);
+  box-shadow: 0 0 48vmin $background-color;
+  border: 0.5vmin solid $background-color;
+  top: 7.5vmin;
+  left: 7.5vmin;
+}
