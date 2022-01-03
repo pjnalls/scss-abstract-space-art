@@ -32,6 +32,13 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
+}
+
+.canvas .star {
+  position: absolute;
+  background: #314569;
+  border-radius: 50%;
 }
 
 .canvas .world {
