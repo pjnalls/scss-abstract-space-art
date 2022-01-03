@@ -12,7 +12,7 @@ const createStar = (size, top, left) => {
   div.style.height = `${size}vmin`;
   div.style.top = `${top}vmin`;
   div.style.left = `${left}vmin`;
-  
+
   return div;
 };
 
@@ -33,10 +33,15 @@ const main = () => {
   const root = document.getElementById("root"),
     canvas = createDiv("canvas"),
     world = createDiv("world"),
-    stars = createStars();
+    stars = createStars(),
+    person = createDiv("person");
+
+  person.textContent = "🧎🏾‍♂️";
 
   canvas.appendChild(stars);
   canvas.appendChild(world);
+  canvas.appendChild(person);
+
   root.appendChild(canvas);
 };
 
