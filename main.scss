@@ -10,4 +10,8 @@
     $bright-golden-color,
     $bright-golden-color
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @import "world";
 }
