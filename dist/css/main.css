@@ -1,0 +1,50 @@
+/** Global Color Variables */
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right bottom, from(#253f57), color-stop(#f5f2ef), to(#f5f2ef));
+  background: linear-gradient(to right bottom, #253f57, #f5f2ef, #f5f2ef);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.canvas .world {
+  position: absolute;
+  width: 67vmin;
+  height: 67vmin;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, right top, left top, from(#dfce6d), to(#df6d8e));
+  background: linear-gradient(to left, #dfce6d, #df6d8e);
+  -webkit-box-shadow: 0 0 48vmin #253f57;
+          box-shadow: 0 0 48vmin #253f57;
+  border: 0.5vmin solid #253f57;
+  top: 7.5vmin;
+  left: 7.5vmin;
+}
+/*# sourceMappingURL=main.css.map */
