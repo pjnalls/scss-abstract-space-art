@@ -54,4 +54,26 @@ body {
   top: 7.5vmin;
   left: 7.5vmin;
 }
+
+.canvas .person {
+  position: absolute;
+  bottom: 5vmin;
+  right: 5vmin;
+  font-size: 2.5rem;
+}
+
+.canvas .person::before {
+  content: "";
+  position: absolute;
+  font-size: 2rem;
+  height: 0.5vmin;
+  width: 7vmin;
+  border-radius: 50%;
+  opacity: 75%;
+  background: #253f57;
+  top: 6vmin;
+  left: 0.75vmin;
+  -webkit-box-shadow: 0 0 1vmin #253f57;
+          box-shadow: 0 0 1vmin #253f57;
+}
 /*# sourceMappingURL=main.css.map */
