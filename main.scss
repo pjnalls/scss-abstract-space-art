@@ -1,0 +1,13 @@
+@import "config";
+
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to right bottom,
+    $background-color,
+    $bright-golden-color,
+    $bright-golden-color
+  );
+}
